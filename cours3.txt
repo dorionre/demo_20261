@@ -1,0 +1,74 @@
+# tempF: int = 72
+# tempC: float = (tempF - 32) * 5 / 9
+# print(tempC)
+
+#une annee est bissextile si elle est divisible par 4 mais pas par 100, sauf si elle est divisible par 400.
+# annee: int = 2026
+# bissextile: bool
+
+# bissextile = annee % 4 == 0 and annee % 100 != 0 or annee % 400 == 0
+
+# print(bissextile)
+
+
+# num1 =45
+# num2 =89
+# num3 =55
+
+# moyenne = (num1 + num2 + num3) / 3
+# print("La moyenne est:", moyenne)
+
+
+
+
+# nombre: int = -10
+
+# if nombre >= 0:
+# print("YEAH")
+# print("positif")
+
+# else:
+# print("négative")
+
+# print("fin")
+
+
+#A: 90 et plus 
+#B: 80 - 89
+#C: 70 - 79
+#D: 60 - 69
+#E : 59 et moins 
+
+# note: int = 72
+# cote: str
+
+# if note >= 90:
+#     cote = "A"
+
+# elif note >= 80: 
+#     cote = "B"
+
+# elif note >= 70:
+#     cote = "C"
+
+# elif note >= 60:
+#     cote = "D"
+
+# else:
+#     cote = "E"
+
+# print(cote)
+
+import random
+
+dmg: int
+de: int
+
+de = random.randint(1, 6)
+
+if not (de == 3 or de == 5):
+    dmg = de
+# OU
+
+if de !=3 and de != 5: 
+    dmg = de 
